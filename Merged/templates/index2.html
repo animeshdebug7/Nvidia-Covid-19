@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+
+  <body>
+
+    <h1>Live Feed</h1>
+    <div>
+        <img src="{{ url_for('live') }}" width="50%"/>
+    </div>
+
+    <div class="container">
+        <a href="/info">
+            <button class="btn2">Info</button>
+        </a>
+    </div>
+
+  </body>
+
+
+</html>
+
+<style>
+  body
+    {
+      background-image: url('static/cov2.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+  h1
+    {
+      color: white;
+      font-family: 'Trebuchet MS', sans-serif;
+      font-weight: 900;
+    }
+
+.container 
+    {
+      position: absolute;
+      top: 30%;
+      right: 20%;
+      display: block;
+      text-align: center;
+      z-index: 1;
+    }
+
+.btn2 
+{
+width: 175px;
+height: 75px;
+border: white;
+color: black;
+background-color: white;
+box-shadow: inset 0 0 0 0 rgb(95, 94, 94);
+transition: ease-out 0.4s;
+font-size: 2rem;
+outline: none;
+}
+
+.btn2:hover 
+{
+border: white;
+box-shadow: inset 175px 0 0 0 rgb(95, 94, 94);
+cursor: pointer;
+color:white;
+}
+
+
+</style>
