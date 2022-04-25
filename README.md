@@ -65,7 +65,7 @@ We have used yolov4 for detecting people and measuring social distance, for that
 
 Also, for face and mask detection we followed the Balaji Srinivasan [tutorial](https://www.youtube.com/watch?v=Ax6P93r32KU&t=835s&ab_channel=BalajiSrinivasan) and his [repository](https://github.com/balajisrinivas/Face-Mask-Detection). But as I mentioned above, this mask detector is not performing well for far away face so we will be modifying it soon.
 
-For the libraries requirement part you can follow uploaded [requirement.txt](https://github.com/buggyprogrammer/Prevent-covid-spread/blob/master/requirements.txt)
+For the libraries requirement part you can follow uploaded [requirement.txt](https://github.com/animeshdebug7/Nvidia-Covid-19/blob/main/requirements.txt)
 
 ## Team Members
 
