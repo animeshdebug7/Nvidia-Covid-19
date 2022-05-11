@@ -18,7 +18,7 @@ This is the 2nd round project of Nvidia's Hackathon. Check out the 1st round pro
 | **Features**        | Mask Detection, Social Distacing detection, Dashboard of violation trend, Alert Email and Annocuncement |
 | **Input**           | Camera Footage                                                                                          |
 | **Performance**     | ~3FPS on i3 cpu and around ~30FPS on decent GPU (not tested)                                            |
-| **Technology Used** | Opencv, yolov5, resnet, tensorflow                                                                      |
+| **Technology Used** | Opencv, yolov4, resnet, tensorflow                                                                      |
 
 </details>
 
